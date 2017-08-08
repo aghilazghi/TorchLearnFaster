@@ -1,5 +1,14 @@
+html,
+body {
+   font-family: 'Saira Semi Condensed', sans-serif;
+   height: 100%;
+}
+
+.btn {
+    transition: all .3s ease-in-out;
+}
 .navbar {
-    background-color: rgba(21, 31, 33, .5);
+    background-color: rgba(21, 31, 33, .6);
     border-bottom: 1px solid #dedede;
     font-family: 'Saira Semi Condensed', sans-serif;
 }
@@ -15,3 +24,48 @@
 .navbar-toggler {
     color: #fff;
 }
+
+/* HEADER */
+#header {
+    background: url('../images/group-study.jpeg') center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+#header .group-study-heading {
+     color: #fdb00a; 
+}
+#header .group-study {
+    background-color: rgba(0, 0, 0, .3);
+    padding-top: 10px;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+
+#header .header-form-info {
+    background-color: rgba(0, 0, 0, .3);
+    color: #fdb00a;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#header .down-arrow {
+    margin-top: 10%;
+}
+
+#header .fa {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+#header a .fa {
+     color: #fdb00a;
+}
+
+#header a .fa:hover {
+     color:#ba830e;
+}
+
