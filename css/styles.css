@@ -1,7 +1,14 @@
 html,
 body {
    font-family: 'Saira Semi Condensed', sans-serif;
+   font-size: 1.125rem;
    height: 100%;
+}
+
+@media(max-width: 768px){
+    #social {
+        text-align: center;
+    }
 }
 
 .btn {
@@ -59,6 +66,7 @@ body {
 
 #header .fa {
     background-color: rgba(0, 0, 0, .1);
+    transition: all .4s ease-in-out;
 }
 
 #header a .fa {
@@ -66,6 +74,35 @@ body {
 }
 
 #header a .fa:hover {
-     color:#ba830e;
+     color:#fff;
 }
+
+/* social */
+
+#social {
+    margin: 3.5rem 0;
+}
+
+#social h2 {
+   margin-bottom: 1.5rem;
+}
+
+#social .fa {
+    font-size: 1.5rem;
+    color:  #fdb00a;
+    border: 2px solid #fdb00a;
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 25%;
+    text-align: center;
+    padding: 30% 0;
+    margin-top: 1.5rem;
+    transition: all .4s ease-in-out;
+}
+
+#social .fa:hover {
+    background: #fdb00a;
+    color: #fff;
+}
+
 
